@@ -1,0 +1,19 @@
+Admin Triggers:
+  !prenuke <rls> <rsn>
+  !preunnuke <rls> <rsn>
+  !modnuke <rls> <rsn>
+  !nukelock <rls>, Locks a release from being nuked/unnuked
+  !unnukelock <rls>, Unlocks a release allowing it to be nuked/unnuked
+  !cs <rls> <section>, Change a section of a release
+  !cg <rls> <genre>, Change a genre of a release
+  !cinfo <rls> <file> <size>, Change file or size info for a release.
+    Use 0 for any unknown value.
+  !preadd <rls> <section>
+  !predel <rls>
+  !preundel <rls>
+  !addoldline <rls>, Outputs preadd line used for administrative purposes
+  !addoldpre <rls> <type> <files> <size> <duration>
+    Ex. !addoldpre Criss.Angel.Mindfreak.S02E03.DVDRip.XviD-DIMENSION TV 17 235 12w 4d 11h 57m 39s
+  !tflist_add <filter>, Adds a temp filter to be checked against all pres for 30 minutes
+  !tflist_del <filter>, Removes a temp filter
+  !freload, Reloads filter list

@@ -1,0 +1,311 @@
+*2007* CRAP +10
+*2008* CRAP +10
+*2009* CRAP +10
+*2010* CRAP +10
+Test.* CRAP +15
+Test_* CRAP +15
+Test-* CRAP +15
+Pre.* CRAP +15
+Pre_* CRAP +15
+Pre-* CRAP +15
+*.Test.* CRAP +15
+*_Test_* CRAP +15
+*_Test_* CRAP +15
+*.Pre.* CRAP +15
+*_Pre_* CRAP +15
+*_Pre_* CRAP +15
+*.mp3 CRAP +50
+*.m3u CRAP +50
+just?a* CRAP +5
+*just?a* CRAP +4
+*0r* CRAP +4
+
+*TestKing* CRAP -11
+*Greatest* CRAP -11
+*Testimone* CRAP -11
+*Testament* CRAP -11
+*Testube* CRAP -11
+*Hottest* CRAP -11
+*ActualTests* CRAP -11
+*Contest* CRAP -11
+*Complete.STV* CRAP -11
+*Pretend* CRAP -11
+*Present* CRAP -11
+*Premier* CRAP -11
+*Preston* CRAP -11
+*Prestige* CRAP -11
+*Press* CRAP -11
+*Suprem* CRAP -11
+*Precis* CRAP -11
+*Apres* CRAP -11
+*Pressure* CRAP -11
+*Pretty* CRAP -11
+*Prettie* CRAP -11
+*Spread* CRAP -11
+*Spree* CRAP -11
+*Prevent* CRAP -11
+*Predator* CRAP -11
+*Apprentice* CRAP -11
+*Cutscene* CRAP -11
+*Obscene* CRAP -11
+*Scenery* CRAP -11
+*Scenes* CRAP -11
+*Blame* CRAP -11
+*Flame* CRAP -11
+*Lament* CRAP -11
+*Lamerique* CRAP -11
+*Brown* CRAP -11
+*Down* CRAP -11
+*Town* CRAP -11
+*Unknown* CRAP -11
+*Girls* CRAP -3
+*-EcHoS CRAP -10
+*-gAyFaCe CRAP -9
+*-STFU CRAP -10
+*-COVERS CRAP -50
+
+*-AT-* MP3 +3 FOREIGN +21
+*-AU-* MP3 +3 FOREIGN +22
+*-BE-* MP3 +3 FOREIGN +23
+*BHANGRA* MP3 +3 FOREIGN +24
+*-BR-* MP3 +3 FOREIGN +25
+*-CH-* MP3 +3 FOREIGN +26
+*-CN-* MP3 +3 FOREIGN +27
+*-CZ-* MP3 +3 FOREIGN +28
+*-DE-* MP3 +3 FOREIGN +29
+*-EE-* MP3 +3 FOREIGN +30
+*-ES-* MP3 +3 FOREIGN +31
+*-FI-* MP3 +3 FOREIGN +32
+*-FR-* MP3 +3 FOREIGN +33
+*-GR-* MP3 +3 FOREIGN +34
+*-HU-* MP3 +3 FOREIGN +35
+*-IL-* MP3 +3 FOREIGN +36
+*-IT-* MP3 +3 FOREIGN +37
+*-JP-* MP3 +3 FOREIGN +38
+*-LT-* MP3 +3 FOREIGN +39
+*-NL-* MP3 +3 FOREIGN +40
+*-NO-* MP3 +3 FOREIGN +41
+*-PL-* MP3 +3 FOREIGN +42
+*-RO-* MP3 +3 FOREIGN +43
+*-RU-* MP3 +3 FOREIGN +44
+*-SE-* MP3 +3 FOREIGN +45
+*-TR-* MP3 +3 FOREIGN +46
+*NLSUB* FOREIGN +50
+*SWESUB* FOREIGN +51
+*DKSUB* FOREIGN +52
+*NORDIC* FOREIGN +53
+*SUBFRENCH* FOREIGN +54
+
+OST_* MP3 +11
+OST-* MP3 +7
+*OST-* MP3 +4
+*(OST)* MP3 +11
+VA_* MP3 +11
+VA-* MP3 +11
+V.A.* MP3 +11
+DJ_* MP3 +5
+*DJ_* MP3 +4
+*-Advance* MP3 +5
+*(Advance* MP3 +5
+*-Clean* MP3 +5
+*(Clean* MP3 +5
+*-Limited_Edition* MP3 +5
+*(Limited_Edition* MP3 +5
+*-Ltd.Ed.* MP3 +5
+*(Ltd.Ed.* MP3 +5
+*-Promo* MP3 +5
+*(Promo* MP3 +5
+*-Reissue* MP3 +5
+*(Reissue* MP3 +5
+*-Remastered* MP3 +5
+*(Remastered* MP3 +5
+*-Remix* MP3 +5
+*(Remix* MP3 +5
+*-Retail* MP3 +5
+*(Retail* MP3 +5
+*-Fanclub* MP3 +5
+*(Fanclub* MP3 +5
+*_CD-* MP3 +5
+*_CD)* MP3 +5
+*-CD-* MP3 +5
+*-CD)* MP3 +5
+*CDA-* MP3 +5
+*CDA)* MP3 +5
+*CDR-* MP3 +5
+*CDR)* MP3 +5
+*CDS-* MP3 +5
+*CDS)* MP3 +5
+*CDM-* MP3 +5
+*CDM)* MP3 +5
+*Bootleg-* MP3 +5
+*Bootleg)* MP3 +5
+*Digipak-* MP3 +5
+*Digipak)* MP3 +5
+*-EP-* MP3 +5
+*(EP)* MP3 +5
+*Vinyl-* MP3 +5
+*Vinyl)* MP3 +5
+*VLS-* MP3 +5
+*VLS)* MP3 +5
+*VLA-* MP3 +5
+*VLA)* MP3 +5
+*LP-* MP3 +5
+*LP)* MP3 +5
+*MD-* MP3 +5
+*MD)* MP3 +5
+*Demo-* MP3 +5
+*Demo)* MP3 +5
+*Radio-* MP3 +5
+*Radio)* MP3 +5
+*Remix-* MP3 +5
+*Remix)* MP3 +5
+*Sampler-* MP3 +5
+*Sampler)* MP3 +5
+*Trackfix* MP3 +5
+*Live_At* MP3 +9 LIVE +11
+*-Live-* MP3 +5 LIVE +11
+*(Live)* MP3 +5 LIVE +11
+*-CABLE-* MP3 +5 LIVE +11
+*(CABLE)* MP3 +5 LIVE +11
+*-DAB-* MP3 +5 LIVE +11
+*(DAB)* MP3 +5 LIVE +11
+*-DAT-* MP3 +5 LIVE +11
+*(DAT)* MP3 +5 LIVE +11
+*-FM-* MP3 +5 LIVE +11
+*(FM)* MP3 +5 LIVE +11
+*-LINE-* MP3 +5 LIVE +11
+*(LINE)* MP3 +5 LIVE +11
+*-SAT-* MP3 +5 LIVE +11
+*(SAT)* MP3 +5 LIVE +11
+*-2CD-* MP3 +5
+*-3CD-* MP3 +5
+*-4CD-* MP3 +5
+*-5CD-* MP3 +5
+*-6CD-* MP3 +5
+*-7CD-* MP3 +5
+*-8CD-* MP3 +5
+*-9CD-* MP3 +5
+*-10CD-* MP3 +5
+*-11CD-* MP3 +5
+*-12CD-* MP3 +5
+*-13CD-* MP3 +5
+*-14CD-* MP3 +5
+*-15CD-* MP3 +5
+*-16CD-* MP3 +5
+*-197?-* MP3 *2 MUSIC +10
+*-198?-* MP3 *2 MUSIC +10
+*-199?-* MP3 *2 MUSIC +10
+*-2000-* MP3 *2 MUSIC +10
+*-2001-* MP3 *2 MUSIC +10
+*-2002-* MP3 *2 MUSIC +10
+*-2003-* MP3 *2 MUSIC +10
+*-2004-* MP3 *2 MUSIC +10
+
+*VCD* VCD +10 MP3 -10
+*SVCD* SVCD +10 VCD -10 MUSIC +5 MP3 -10
+*XVID* XVID +10 MP3 -10
+*DIVX* DIVX +10 MP3 -10
+*DVDR* DVDR +10 MP3 -10
+*DVD-R* DVDR +10 MP3 -10
+*DVDRip* DVDR -10 MP3 -10
+*Screener* XVID +10 SVCD -5
+*TELESYNC* XVID +10 SVCD -5
+*TELECINE* XVID +10 SVCD -5
+*.TC.* XVID +10 SVCD -5
+*.TS.* XVID +10 SVCD -5
+*VHSRIP* VCD +5
+*.CAM.* XVID +10
+*.COMPLETE.* DVDR +5
+*.INCOMPLETE.* DVDR +5
+*.NTSC.* DVDR +5
+*.PAL.* DVDR +5
+*.DTS.* DVDR +5
+*SUBPACK* DVDR +9
+
+*_Multi?_* CONSOLE +5 HANDHELD +5
+*_PAL* CONSOLE +9
+*_EUR* HANDHELD +9
+*_USA* CONSOLE +9 HANDHELD +9
+*_JAP* CONSOLE +9 HANDHELD +9
+*_JPN* CONSOLE +9 HANDHELD +9
+*PS2* CONSOLE +10 PS2 +11
+*XBOX* CONSOLE +10 XBOX +11
+*XBOX360* CONSOLE +10 X360 +12
+*NGC* CONSOLE +10 GCN +11
+*GameCube* CONSOLE +10 GCN +11
+*GCN* CONSOLE +10 GCN +10
+*GBA* HANDHELD +10 GBA +10
+*PDA* HANDHELD +10 PDA +10
+*NGAGE* HANDHELD +9 PDA +9
+*N-GAGE* HANDHELD +11 PDA +11
+*PalmOS* HANDHELD +11 PDA +11
+*SymbianOS* HANDHELD +11 PDA +11
+*.ARM* HANDHELD +9 PDA +9
+*.PPC* HANDHELD +9 PDA +9
+
+*BeOS* ISO +5 0DAY +4 APPS +10
+*Bilingual* ISO +5 0DAY +4 APPS +5
+*Cracked* 0DAY +10 DOX -5
+*Keygen* 0DAY +10 ISO +5 DOX +5
+*Keymaker* 0DAY +10 ISO +5 DOX +5
+*Linux* 0DAY +5 ISO +4 APPS +5
+*Microsoft* ISO +9 0DAY +8 APPS +10
+mIRC* CRAP -50 0DAY +10
+*Multilingual* ISO +5 0DAY +4 APPS +5
+*Multilanguage* ISO +5 0DAY +4 APPS +5
+*Patch* 0DAY +8
+*Regged* 0DAY +8 HANDHELD +3 PDA +3
+*Retail* 0DAY +5
+*WinALL* 0DAY +10
+*Win9* 0DAY +10
+*WinME* 0DAY +10
+*WinNT* 0DAY +10
+*Win2K* 0DAY +10
+*WinXP* 0DAY +10
+*.Win* 0DAY +5
+Win*.* 0DAY +5
+
+*DVB* TV +10
+*eBook* 0DAY +10 EBOOK +10
+*Commercial?Font* 0DAY +30 FONTS +30
+*DVDCOVER* COVERS +10
+*HI?QUALITY* COVERS +4
+*HIGH?QUALITY* COVERS +4
+
+*ActualTest* 0DAY +9 EBOOK +9
+*BOSON* 0DAY +9 EBOOK +9
+*Fravo* 0DAY +9 EBOOK +9
+*Pressbook* 0DAY +9 EBOOK +9
+*Issue* 0DAY +9 EBOOK +9
+*Guide* 0DAY +9 EBOOK +9
+*Comic* 0DAY +9 EBOOK +9
+*DateCode 0DAY +9 EBOOK +9
+*Enterprise* APPS +5
+*Professional* APPS +5
+*Greatest?Hits* MP3 +5
+*Megamix* MP3 +5
+*Riddim* MP3 +5
+*Whitelabel* MP3 +5
+*XBMC* CONSOLE +10 XBOX +10
+
+*Crack* DOX +5
+*Fix* DOX +5
+*TRACKFIX* DOX -5
+*DIRFIX* DOX -5
+*NFOFIX* DOX -5
+*DIR?FIX* DOX -5
+*NFO?FIX* DOX -5
+*Trainer* DOX +10
+*NoCD* DOX +10
+*Patch* DOX +10
+*Update* DOX +10 HANDHELD -10 PDA -10
+*Cheat* DOX +10
+*Unlocker* DOX +10
+*Plus.?.* DOX +3
+*Plus.??.* DOX +3
+
+*XXX* XXX +5 CRAP -5
+*.XXX.* XXX +10
+*.JAV.* XXX +9
+*Censored* XXX +5
+

@@ -1,0 +1,47 @@
+Switches:
+ Search is case insensitive by default
+ Allowed wildcards are *, %, and white space. For single character wildcard a ? may be used.
+ 
+ These are accepted by all the commands listed below:
+   -C (Case sensitive) -b (Blocked) -B (Bare) -i (NFO Only)
+   -j (JPG Only) -I (No NFO Only) -J (No JPG Only) -n (no nukes) -N (only nukes)
+   -c (no crap releases) -h (hide extra data) -l (only english results) -o (opposite sort)
+   -w (exact mode) -S <start at> -E <end at> -e <exclusion> -r <results> 
+   -s [!]<section> -t <days back> -g <genre> -G <group> -R <regexp filter> release
+   
+   The following triggers require no paramters:
+   -C -b -B -i -j -I -J -c -n -N -l -o -h and -w
+     However, if you type -N:reason it searches the nuke reasons for reason.
+   
+   Anything in <> is required paramater after the switch.
+   
+   -e excludes words from results, ex: !pre -e star|wars episode
+     Results with the word episode and without star or wars will be shown.
+   -r will notice you the number of results you supply, you must supply it, maximum of 50.
+   -S will make the results start at the number you specifiy rather than 1.
+   -E will make the results end at the number you specifiy rather than after 4, maxiumum 10.
+   -R allows users to match a release based on a regexp filter.
+     Ex. !pre -b -R [e3][-()_.e3]*f[-()_.f]*n[-()_.n]*[e3][-()_.e3]*[7t] *
+ 
+Queries (with full switch support):
+ !pre, Queries the database for a list of releases.
+ !nukes, shorthand for !pre command with -N switch.
+ !total, Shows the total releases in DB along with additional output based on query.
+ !latest [section], Shows the last 10 releases in that section.
+ !topgroup [section], Shows the top rated groups for the specified section.
+ !genres, Lists valid genres as well as how many pres there are per section
+ !sections, Lists valid sections as well as how many pres there are per section
+
+Queries (no switches accepted):
+ !listsections, Lists valid sections
+ !listgenres, Lists valid genres
+ !nfo <rls>, Will return a link to view the NFO for a specific release
+ !jpg <rls>, Will return a link to view the JPG for a specific release
+ !pconvert <duration>, Converts a duration into standard unixtime
+
+Notification System:
+ !notify <method> <filter> [section] [group]
+   Method is either privmsg or notice.
+   Filter allows for wildcards, section and group are optional.
+ !nlist, Will list all current notify triggers active for your nick.
+ !ndel <num>, Will delete the notify trigger number listed in !nlist.

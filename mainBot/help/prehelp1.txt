@@ -1,0 +1,11 @@
+Admin Triggers:
+  !prenuke <rls> <rsn>
+  !preunnuke <rls> <rsn>
+  !modnuke <rls> <rsn>
+  !nukelock <rls>, Locks a release from being nuked/unnuked
+  !unnukelock <rls>, Unlocks a release allowing it to be nuked/unnuked
+  !cs <rls> <section>, Change a section of a release
+  !cg <rls> <genre>, Change a genre of a release
+  !cf <oldrls> <newrls>, Change a case of a release
+  !cinfo <rls> <file> <size>, Change file or size info for a release.
+    Use 0 for any unknown value.
