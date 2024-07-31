@@ -45,3 +45,19 @@
    Filter allows for wildcards, section and group are optional.
  !nlist, Will list all current notify triggers active for your nick.
  !ndel <num>, Will delete the notify trigger number listed in !nlist.
+
+TV Rage Commands (with pre integration):
+ !today, Displays a list of TV shows today along with prename and time if it has been released.
+ !tomorrow, Same as .today but for the next day.
+ !schedule <day>, Will show the TV schedule for the desired <day>
+   Use three letter abbrevation for <day>.
+ !showinfo <show>, Will display information about <show>.
+
+Music commands (with pre integration):
+ !billboard [num], Messages the top albums according to Billboards with pre name and time.
+   Number of albums can be specified via [num]. Default is 10.
+ !itunes [num], Like !billboard but using iTunes.
+ !track <song name>, Searches for <song name> and returns a Spotify link.
+ !album <album name>, Searches for <album name> and returns a Spotify link.
+   <album name> can be a release name or plain text title.
+   Artist information can be passed along as well.

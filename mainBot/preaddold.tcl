@@ -116,6 +116,20 @@ proc preplay {nick to form ttype chan arg} {
   #Query the database and requery blocked/deleted queries if no results found. If still no results then request an addold when possible then terminate.
   set numreleases [::mysql::sel $db $query]
   for {set i 0} {$i < $numreleases} {incr i} {
+    if {$files == "1"} {
+      lassign [::mysql::fetch $db] id title nfile jfile
+      set password "secretpasswordhere"
+      set expiry [expr [unixtime] + 600]
+      set hash [md5 $password$expiry]
+      set url [::base64::encode $id:$hash:$expiry]
+      regsub -all "=" $url "" url
+
+      set nurl "http://NFO_SERVER_URL/?[lindex $url 0][lindex $url 1]=download"
+      set jurl "http://NFO_SERVER_URL/jpgview.php?[lindex $url 0][lindex $url 1]OmltYWdlOjA="
+
+      tmsg $ttype $form $to "!oldnfo $title $nurl $nfile"
+      tmsg $ttype $form $to "!oldjpg $title $jurl $jfile"
+    } else {
       lassign [::mysql::fetch $db] id type title time nuketime nrsn genre weight file grp nlock blocked nfound sfound
 
       if {$nrsn == "" || $nuketime == "0"} { set nrsn "-" }
@@ -124,6 +138,7 @@ proc preplay {nick to form ttype chan arg} {
       if {$file == "0"} { set file "-" }
       if {$weight == "0"} { set weight "-" }
       tmsg $ttype $form $to "!addold $title $type $time $file $weight $genre $nrsn"
+    }
   }
 
   mysqlendquery $db

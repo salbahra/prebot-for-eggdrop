@@ -1,0 +1,8 @@
+.wrap{white-space:normal}
+.center{text-align: center}
+.rls-detail{margin:0px}
+.ui-dialog-contain{max-width:none;margin-top:17px}
+body{
+    background-image: -webkit-linear-gradient( #444,#222 ) !important;
+}
+#new a:link,#new a:visited{color:#303030}
